@@ -1,0 +1,18 @@
+[0;1;32m●[0m home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Sun 2019-03-17 13:45:40 +07; 7h ago
+ Main PID: 3464 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           ├─ 492 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+           └─3464 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Mar 17 19:44:30 hassbian hass[3464]: 2019-03-17 19:44:30 WARNING (Thread-23) [pychromecast.socket_client] [Loa Phòng Khách:8009] Heartbeat timeout, resetting connection
+Mar 17 19:44:56 hassbian hass[3464]: 2019-03-17 19:44:56 WARNING (MainThread) [homeassistant.components.weather] Updating darksky weather took longer than the scheduled update interval 0:00:30
+Mar 17 19:45:27 hassbian hass[3464]: 2019-03-17 19:45:27 WARNING (MainThread) [homeassistant.components.weather] Updating darksky weather took longer than the scheduled update interval 0:00:30
+Mar 17 19:45:30 hassbian hass[3464]: 2019-03-17 19:45:30 WARNING (Thread-23) [pychromecast.socket_client] [Loa Phòng Khách:8009] Heartbeat timeout, resetting connection
+Mar 17 19:45:47 hassbian hass[3464]: 2019-03-17 19:45:47 INFO (MainThread) [homeassistant.components.http.view] Serving /api/config/core/check_config to 192.168.1.11 (auth: True)
+Mar 17 19:45:48 hassbian hass[3464]: 2019-03-17 19:45:48 INFO (Thread-15) [homeassistant.loader] Loaded media_player.vlc from homeassistant.components.media_player.vlc
+Mar 17 19:45:48 hassbian hass[3464]: 2019-03-17 19:45:48 WARNING (Thread-15) [homeassistant.components.http] Configuring trusted_networks via the http component has been deprecated. Use the trusted networks auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#trusted-networks
+Mar 17 19:45:51 hassbian hass[3464]: 2019-03-17 19:45:51 WARNING (Thread-3) [homeassistant.components.http] Configuring trusted_networks via the http component has been deprecated. Use the trusted networks auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#trusted-networks
+Mar 17 19:45:52 hassbian hass[3464]: 2019-03-17 19:45:52 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1660868752] Connection closed by client
+Mar 17 19:45:52 hassbian hass[3464]: 2019-03-17 19:45:52 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1662615280] Connection closed by client

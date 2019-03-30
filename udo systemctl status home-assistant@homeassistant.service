@@ -1,0 +1,18 @@
+[0;1;32m●[0m home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Tue 2019-03-19 17:22:15 +07; 1h 46min ago
+ Main PID: 529 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           ├─529 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+           └─715 /usr/bin/pulseaudio --start --log-target=syslog
+
+Mar 19 19:01:05 hassbian hass[529]: 2019-03-19 19:01:05 INFO (MainThread) [homeassistant.components.http.view] Serving /api/google_assistant to 64.233.173.39 (auth: True)
+Mar 19 19:01:08 hassbian hass[529]: 2019-03-19 19:01:08 INFO (MainThread) [homeassistant.components.http.view] Serving /api/google_assistant to 64.233.173.37 (auth: True)
+Mar 19 19:02:25 hassbian hass[529]: 2019-03-19 19:02:25 INFO (MainThread) [homeassistant.components.updater] Submitted analytics to Home Assistant servers. Information submitted includes {}
+Mar 19 19:02:25 hassbian hass[529]: 2019-03-19 19:02:25 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None
+Mar 19 19:04:18 hassbian hass[529]: 2019-03-19 19:04:18 INFO (MainThread) [homeassistant.components.http.view] Serving /auth/token to 192.168.1.9 (auth: False)
+Mar 19 19:04:18 hassbian hass[529]: 2019-03-19 19:04:18 INFO (MainThread) [homeassistant.components.http.view] Serving /api/config/core/check_config to 192.168.1.9 (auth: True)
+Mar 19 19:04:19 hassbian hass[529]: 2019-03-19 19:04:19 WARNING (Thread-9) [homeassistant.components.http] Configuring trusted_networks via the http component has been deprecated. Use the trusted networks auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#trusted-networks
+Mar 19 19:04:29 hassbian hass[529]: 2019-03-19 19:04:29 WARNING (Thread-4) [homeassistant.components.http] Configuring trusted_networks via the http component has been deprecated. Use the trusted networks auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#trusted-networks
+Mar 19 19:04:29 hassbian hass[529]: 2019-03-19 19:04:29 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1214053840] Connection closed by client
+Mar 19 19:04:29 hassbian hass[529]: 2019-03-19 19:04:29 INFO (MainThread) [homeassistant.components.websocket_api.http.connection.1383897616] Connection closed by client
